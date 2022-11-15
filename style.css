@@ -54,3 +54,28 @@ h1 {
     }
 }
 
+@media  print {
+    h1 {
+        text-transform: uppercase;
+        color: green;
+        #header, #footer, #nav { display: none !important; } 
+    }
+}
+
+@media (max-width: 800px) {
+   #two {
+    color: navy;
+   } 
+}
+
+@media  (max-width: 600px) {
+    #two {
+        color: orange;
+    }
+}
+
+@media  (min-width: 750px) and (max-width: 775px) and (min-height: 550) and (max-height: 575) {
+    h1 {
+        font-style: italic;
+    }
+}
